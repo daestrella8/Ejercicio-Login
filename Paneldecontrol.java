@@ -109,7 +109,7 @@ public class Paneldecontrol {
       System.out.print("Digite una contraseña: ");
       name.setpass(scanner.nextLine());
 
-      name.generarUsuario();
+      name.almacenarUser();
    }
 
    public void imprimoDatos(Persona name) {
